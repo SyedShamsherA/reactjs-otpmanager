@@ -1,0 +1,843 @@
+div .container{
+    background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+    height: 600px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 590px;
+  }
+
+  input{
+    width:250px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 2px;
+    margin-left: 20px;
+  }
+
+  button{
+    width: 252px;
+    height: 35px;
+    border-radius: 10px;
+    background: linear-gradient(to right,  #03070F, #023fba);
+    color: white;
+    margin-top: 2px;
+    margin-left: 20px;
+  }
+
+  
+  h2{
+    margin-left: 110px;
+  }
+
+  label{
+    margin-left: 20px;
+    bottom: 10px;
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 1360px) {
+    div .container{
+        background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+      }
+    
+      .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px; 
+        height: 600px;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 590px;
+      }
+    
+      input{
+        width:250px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 2px;
+        margin-left: 20px;
+      }
+    
+      button{
+        width: 252px;
+        height: 35px;
+        border-radius: 10px;
+        background: linear-gradient(to right,  #03070F, #023fba);
+        color: white;
+        margin-top: 2px;
+        margin-left: 20px;
+      }
+    
+      
+      h2{
+        margin-left: 110px;
+      }
+    
+      label{
+        margin-left: 20px;
+        bottom: 10px;
+      }
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px){
+    div .container{
+        background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+      }
+    
+      .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px; 
+        height: 600px;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 60px !important;
+        margin-left: 120px !important;
+        position: absolute;
+      }
+    
+      input{
+        width:250px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 2px;
+        margin-left: 20px;
+      }
+    
+      button{
+        width: 252px;
+        height: 35px;
+        border-radius: 10px;
+        background: linear-gradient(to right,  #03070F, #023fba);
+        color: white;
+        margin-top: 2px;
+        margin-left: 20px;
+      }
+    
+      
+      h2{
+        margin-left: 110px;
+      }
+    
+      label{
+        margin-left: 20px;
+        bottom: 10px;
+      }
+  }
+  
+  @media only screen and (min-width: 360px) and (max-width: 767px) {
+    div .container{
+        background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+      }
+    
+      .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px; 
+        height: 600px;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: -20px !important;
+        margin-left: 590px;
+      }
+    
+      input{
+        width:250px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 2px;
+        margin-left: 20px;
+      }
+    
+      button{
+        width: 252px;
+        height: 35px;
+        border-radius: 10px;
+        background: linear-gradient(to right,  #03070F, #023fba);
+        color: white;
+        margin-top: 2px;
+        margin-left: 20px;
+      }
+    
+      
+      h2{
+        margin-left: 110px;
+      }
+    
+      label{
+        margin-left: 20px;
+        bottom: 10px;
+      }
+  }
+  
+  @media only screen and (min-width: 356px) and (max-width: 667px) {
+    div .container{
+        background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+      }
+    
+      .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px; 
+        height: 600px;
+        background-color: white;
+        border-radius: 10px;
+        bottom: 1px;
+        left: 40px;
+      }
+    
+      input{
+        width:250px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 2px;
+        margin-left: 20px;
+      }
+    
+      button{
+        width: 252px;
+        height: 35px;
+        border-radius: 10px;
+        background: linear-gradient(to right,  #03070F, #023fba);
+        color: white;
+        margin-top: 2px;
+        margin-left: 20px;
+      }
+    
+      
+      h2{
+        margin-left: 110px;
+      }
+    
+      label{
+        margin-left: 20px;
+        bottom: 10px;
+      }
+  }
+
+  @media only screen and (min-width: 414px) and (max-width: 896px) {
+    div .container{
+      background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      place-items: center;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px; 
+        background-color: white;
+        border-radius: 10px;
+        top: 50px;
+        left: 60px;
+      }
+    
+      input{
+        width:250px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      button{
+        width: 252px;
+        height: 35px;
+        border-radius: 10px;
+        background: linear-gradient(to right,  #03070F, #023fba);
+        color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      p{
+        margin-left: 20px;
+      }
+    
+      .buttonSignup{
+        width:75px;
+        height: 35px;
+        background-color: white;
+      }
+    
+      .login-form:hover{
+        transform: scale(1.05);
+      }
+    
+      h2{
+        margin-left: 110px;
+      }
+    
+      label{
+        margin-left: 20px;
+      }
+  }
+
+  @media only screen and (min-width: 390px) and (max-width: 844px) {
+    div .container{
+        background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+      }
+    
+      .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px; 
+        height: 600px;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 590px;
+      }
+    
+      input{
+        width:250px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 2px;
+        margin-left: 20px;
+      }
+    
+      button{
+        width: 252px;
+        height: 35px;
+        border-radius: 10px;
+        background: linear-gradient(to right,  #03070F, #023fba);
+        color: white;
+        margin-top: 2px;
+        margin-left: 20px;
+      }
+    
+      
+      h2{
+        margin-left: 110px;
+      }
+    
+      label{
+        margin-left: 20px;
+        bottom: 10px;
+      }
+  }
+
+  @media only screen and (min-width: 412px) and (max-width: 915px) {
+    div .container{
+      background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      place-items: center;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px; 
+        background-color: white;
+        border-radius: 10px;
+        top: 30px;
+        left: 75px;
+      }
+    
+      input{
+        width:250px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      button{
+        width: 252px;
+        height: 35px;
+        border-radius: 10px;
+        background: linear-gradient(to right,  #03070F, #023fba);
+        color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      p{
+        margin-left: 20px;
+      }
+    
+      .buttonSignup{
+        width:75px;
+        height: 35px;
+        background-color: white;
+      }
+    
+      .login-form:hover{
+        transform: scale(1.05);
+      }
+    
+      h2{
+        margin-left: 110px;
+      }
+    
+      label{
+        margin-left: 20px;
+      }
+  }
+  @media only screen and (min-width: 820px) and (max-width: 1180px) {
+    div .container{
+      background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      place-items: center;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px; 
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: 250px;
+        margin-left: 180px;
+      }
+    
+      input{
+        width:250px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      button{
+        width: 252px;
+        height: 35px;
+        border-radius: 10px;
+        background: linear-gradient(to right,  #03070F, #023fba);
+        color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      p{
+        margin-left: 20px;
+      }
+    
+      .buttonSignup{
+        width:75px;
+        height: 35px;
+        background-color: white;
+      }
+    
+      .login-form:hover{
+        transform: scale(1.05);
+      }
+    
+      h2{
+        margin-left: 110px;
+      }
+    
+      label{
+        margin-left: 20px;
+      }
+  }
+
+  @media only screen and (min-width: 912px) and (max-width: 1368px) {
+    div .container{
+      background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      place-items: center;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px; 
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 170px;
+        left: 80px;
+      }
+    
+      input{
+        width:250px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      button{
+        width: 252px;
+        height: 35px;
+        border-radius: 10px;
+        background: linear-gradient(to right,  #03070F, #023fba);
+        color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      p{
+        margin-left: 20px;
+      }
+    
+      .buttonSignup{
+        width:75px;
+        height: 35px;
+        background-color: white;
+      }
+    
+      .login-form:hover{
+        transform: scale(1.05);
+      }
+    
+      h2{
+        margin-left: 110px;
+      }
+    
+      label{
+        margin-left: 20px;
+      }
+  }
+  @media only screen and (min-width: 540px) and (max-width: 720px) {
+    div .container{
+      background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      place-items: center;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px; 
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        top: -20px;
+        left: 100px;
+      }
+    
+      input{
+        width:250px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      button{
+        width: 252px;
+        height: 35px;
+        border-radius: 10px;
+        background: linear-gradient(to right,  #03070F, #023fba);
+        color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      p{
+        margin-left: 20px;
+      }
+    
+      .buttonSignup{
+        width:75px;
+        height: 35px;
+        background-color: white;
+      }
+    
+      .login-form:hover{
+        transform: scale(1.05);
+      }
+    
+      h2{
+        margin-left: 110px;
+      }
+    
+      label{
+        margin-left: 20px;
+      }
+  }
+
+  @media only screen and (min-width: 280px) and (max-width: 653px) {
+    div .container{
+      background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      place-items: center;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 258px; 
+        height: 600px;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 10px;
+      }
+    
+      input{
+        width:210px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      button{
+        width: 210px;
+        height: 35px;
+        border-radius: 10px;
+        background: linear-gradient(to right,  #03070F, #023fba);
+        color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      p{
+        margin-left: 10px;
+      }
+    
+      .buttonSignup{
+        width:75px;
+        height: 35px;
+        background-color: white;
+      }
+    
+      .login-form:hover{
+        transform: scale(1.05);
+      }
+    
+      h2{
+        margin-left: 110px;
+      }
+    
+      label{
+        margin-left: 20px;
+      }
+  }
+  @media only screen and (min-width: 853px) and (max-width: 1280px) {
+    div .container{
+      background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      place-items: center;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px; 
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        margin-top: 270px;
+        margin-left: 240px;
+      }
+    
+      input{
+        width:250px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      button{
+        width: 252px;
+        height: 35px;
+        border-radius: 10px;
+        background: linear-gradient(to right,  #03070F, #023fba);
+        color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      p{
+        margin-left: 20px;
+      }
+    
+      .buttonSignup{
+        width:75px;
+        height: 35px;
+        background-color: white;
+      }
+    
+      .login-form:hover{
+        transform: scale(1.05);
+      }
+    
+      h2{
+        margin-left: 110px;
+      }
+    
+      label{
+        margin-left: 20px;
+      }
+  }
+  @media only screen and (min-width: 1024px) and (max-width: 600px) {
+    div .container{
+      background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      place-items: center;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        background-color: white;
+        border-radius: 10px;
+        position: relative;
+        margin-left: 60px;
+        top: 0px;
+      }
+    
+      input{
+        width:250px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      button{
+        width: 252px;
+        height: 35px;
+        border-radius: 10px;
+        background: linear-gradient(to right,  #03070F, #023fba);
+        color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      p{
+        margin-left: 20px;
+      }
+    
+      .buttonSignup{
+        width:75px;
+        height: 35px;
+        background-color: white;
+      }
+    
+      .login-form:hover{
+        transform: scale(1.05);
+      }
+    
+      h2{
+        margin-left: 110px;
+      }
+    
+      label{
+        margin-left: 20px;
+      }
+  }
+  @media only screen and (min-width: 1280px) and (max-width: 800px) {
+    div .container{
+      background: linear-gradient(to right, #8a2be2, #03070F, #8a2be2);
+      width: 100vw;
+      height: 100vh;
+      align-items: center;
+      justify-content: center;
+      place-items: center;
+    }
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        width: 300px; 
+        background-color: white;
+        border-radius: 10px;
+        left: 60px;
+        top: -10px;
+      }
+    
+      input{
+        width:250px;
+        height: 35px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      button{
+        width: 252px;
+        height: 35px;
+        border-radius: 10px;
+        background: linear-gradient(to right,  #03070F, #023fba);
+        color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+      }
+    
+      p{
+        margin-left: 20px;
+      }
+    
+      .buttonSignup{
+        width:75px;
+        height: 35px;
+        background-color: white;
+      }
+    
+      .login-form:hover{
+        transform: scale(1.05);
+      }
+    
+      h2{
+        margin-left: 110px;
+      }
+    
+      label{
+        margin-left: 20px;
+      }
+  }

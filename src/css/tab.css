@@ -1,0 +1,179 @@
+.tabs{
+    background-color: white;
+    margin-left: 20px;
+    position: absolute;
+    top: 20px;
+}
+
+.tabOne{
+    background-color: white;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1360px) {
+    .tabs{
+        background-color: white;
+        margin-left: 20px;
+        position: absolute;
+        top: 20px;
+    }
+    
+    .tabOne{
+        background-color: white;
+    }   
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px){
+    .tabs{
+        background-color: white;
+        margin-left: 20px;
+        position: absolute;
+        top: 20px;
+    }
+    
+    .tabOne{
+        background-color: white;
+    }
+  }
+  
+  @media only screen and (min-width: 360px) and (max-width: 767px) {
+    .tabs{
+        background-color: white;
+        margin-left: 20px;
+        position: absolute;
+        top: 20px;
+    }
+    
+    .tabOne{
+        background-color: white;
+    }
+  }
+
+  @media only screen and (min-width: 414px) and (max-width: 896px) {
+    .tabs{
+        background-color: white;
+        margin-left: 20px;
+        position: absolute;
+        top: 20px;
+    }
+    
+    .tabOne{
+        background-color: white;
+    }
+  }
+
+  @media only screen and (min-width: 390px) and (max-width: 844px) {
+    .tabs{
+        background-color: white;
+        margin-left: 20px;
+        position: absolute;
+        top: 20px;
+    }
+    
+    .tabOne{
+        background-color: white;
+    }
+  }
+
+  @media only screen and (min-width: 412px) and (max-width: 915px) {
+    .tabs{
+        background-color: white;
+        margin-left: 20px;
+        position: absolute;
+        top: 20px;
+    }
+    
+    .tabOne{
+        background-color: white;
+    }
+  }
+
+  @media only screen and (min-width: 820px) and (max-width: 1180px) {
+    .tabs{
+        background-color: white;
+        margin-left: 20px;
+        position: absolute;
+        top: 20px;
+    }
+    
+    .tabOne{
+        background-color: white;
+    } 
+  }
+
+  @media only screen and (min-width: 912px) and (max-width: 1368px) {
+    .tabs{
+        background-color: white;
+        margin-left: 20px;
+        position: absolute;
+        top: 20px;
+    }
+    
+    .tabOne{
+        background-color: white;
+    }
+  }
+
+  @media only screen and (min-width: 540px) and (max-width: 720px) {
+    .tabs{
+        background-color: white;
+        margin-left: 20px;
+        position: absolute;
+        top: 20px;
+    }
+    
+    .tabOne{
+        background-color: white;
+    }
+  }
+
+  @media only screen and (min-width: 280px) and (max-width: 653px) {
+    .tabs{
+        background-color: white;
+        margin-left: 20px;
+        position: absolute;
+        top: 20px;
+    }
+    
+    .tabOne{
+        background-color: white;
+    }
+  }
+
+  @media only screen and (min-width: 853px) and (max-width: 1280px) {
+    .tabs{
+        background-color: white;
+        margin-left: 20px;
+        position: absolute;
+        top: 20px;
+    }
+    
+    .tabOne{
+        background-color: white;
+    }   
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 600px) {
+    .tabs{
+        background-color: white;
+        margin-left: 20px;
+        position: absolute;
+        top: 20px;
+    }
+    
+    .tabOne{
+        background-color: white;
+    }
+  }
+
+  @media only screen and (min-width: 1280px) and (max-width: 800px) {
+    .tabs{
+        background-color: white;
+        margin-left: 20px;
+        position: absolute;
+        top: 20px;
+    }
+    
+    .tabOne{
+        background-color: white;
+    }
+  }
