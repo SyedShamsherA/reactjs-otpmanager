@@ -3,7 +3,7 @@ import { Tabs, Tab, Typography, Box } from '@mui/material'
 import PropTypes from 'prop-types'
 import Dashboard from './Dashboard';
 import Document from './Document';
-import '../css/tab.css'
+import './css/tab.css'
 
 function CustomTabPanel(props) {
     const { children, value, index, ...other } = props

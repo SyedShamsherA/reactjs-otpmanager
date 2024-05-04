@@ -1,0 +1,72 @@
+/* Sidebar.css */
+.sidebar {
+    height: 100%;
+    width: 210px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    padding-top: 20px;
+  }
+
+  .sidebar img{
+    margin-left: 70px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #ddd;
+  }
+  
+  .sidebar ul li.active {
+    background-color: #333;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .sidebar {
+      width: 120px;
+    }
+
+    .sidebar img{
+      margin-left: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .sidebar {
+      width: 120px; 
+    }
+
+    .sidebar img{
+      margin-left: 10px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .sidebar {
+      width: 90px; 
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .sidebar {
+      width: 20%; 
+    }
+
+    .sidebar img{
+      margin-left: 10px;
+    }
+  }

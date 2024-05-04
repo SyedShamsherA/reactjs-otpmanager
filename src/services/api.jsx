@@ -131,6 +131,100 @@ const api = {
       } catch (error) {
         console.error('error:', error)
       }
+    },
+
+    validateOtp: async ( otpData ) => {
+      try {
+        const response = await fetch(`${baseUrl}/otpValidation/validate`, {
+          method: 'POST', 
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(otpData)
+        })
+        if (!response.ok) {
+          const errorData = await response.json()
+          throw new Error(errorData.messge)
+        }
+        return await response.json()
+      } catch (error) {
+        console.error('otpError', error)
+        throw error.messge
+      }
+    },
+
+    createPassword: async (passwordData) => {
+      try {
+        const response = await fetch(`${baseUrl}/passwordManager/createPassword`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(passwordData)
+        })
+        if(!response.ok){
+          const errorData = await response.json()
+          throw new Error(errorData.messge)
+        }
+        return await response.json()
+      } catch (error) {
+        console.error(error)
+        throw error.messge
+      }
+    }, 
+
+    getPassword: async (otp) => {
+      try {
+        const response = await fetch(`${baseUrl}/passwordManager/getAllPasswords?otp=${otp}`, )
+        if(!response.ok){
+          const errorData = await response.json()
+          throw new Error(errorData.message)
+        }
+        return await response.json()
+      } catch (error) {
+        console.error(error)
+        throw error.message
+      }
+    },
+
+    updatePassword: async(passwordData) => {
+      try {
+        const response = await fetch(`${baseUrl}/passwordManager/updatePassword`, {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(passwordData)
+        })
+        if(!response.ok){
+          const errorData = await response.json()
+          throw new Error(errorData.message)
+        }
+        return await response.json()
+      } catch (error) {
+        console.error(error)
+        throw error.message
+      }
+    },
+
+    deletePassword: async(otp, appName) => {
+      try {
+        const response = await fetch(`${baseUrl}/passwordManager/deletePassword`, {
+          method: 'DELETE',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({otp, appName})
+        })
+        if(!response.ok){
+          const errorData = await response.json()
+          throw new Error(errorData.message)
+        }
+        return await response.json()
+      } catch (error) {
+        console.error(error)
+        throw error.message
+      }
     }
   };
   

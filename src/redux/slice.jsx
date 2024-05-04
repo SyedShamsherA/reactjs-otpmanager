@@ -125,5 +125,41 @@ const authSlice = createSlice({
     },
 });
 
+//for otp validation
 export default authSlice.reducer;
 export { login, signup, fetchUserDetails, fetchOtpCount, fetchValidatedOtpCount, sendOtpByEmail, fetchCountValidatedOtps, getUserDetails };
+
+export const otpSlice = createSlice({
+    name: 'otp',
+    initialState: {
+        email: '',
+        otp: '',
+        isValidating: false,
+        error: '',
+    },
+    reducers: {
+        validateOTPSuccess: (state, action) => {
+            state.email = action.payload.email;
+            state.otp = action.payload.otp;
+            state.isValidating = true;
+            state.error = ''
+        },
+        validateOTPFailure: (state, action) => {
+            state.email = '',
+            state.otp = '',
+            state.isValidating = false;
+            state.error = action.payload;
+        }
+    }
+})
+
+export const { validateOTPSuccess , validateOTPFailure } = otpSlice.actions;
+
+export const validateOTPAction = (otpData) => async(dispatch) => {
+    try {
+        const response = await api.validateOtp(otpData)
+        dispatch(validateOTPSuccess(response))
+    } catch (error) {
+        dispatch(validateOTPFailure(error))
+    }
+}

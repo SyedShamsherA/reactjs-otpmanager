@@ -4,7 +4,7 @@ import { signup } from '../redux/slice';
 import FallingFlowers from '../animation/FallingFlowers';
 import PopUpLoginCard from '../animation/PopUpLoginCard';
 import { useNavigate, Link } from 'react-router-dom';
-import '../css/signup.css'
+import './css/signup.css'
 
 const Signup = () => {
   const [username, setUsername] = useState('');

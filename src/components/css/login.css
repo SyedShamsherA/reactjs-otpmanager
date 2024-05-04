@@ -25,7 +25,7 @@ div .container{
     margin-left: 20px;
   }
 
-  button{
+  .loginButton{
     width: 252px;
     height: 35px;
     border-radius: 10px;
@@ -49,7 +49,7 @@ div .container{
     transform: scale(1.05);
   }
 
-  h2{
+  .loginH{
     margin-left: 110px;
   }
 
@@ -659,7 +659,7 @@ div .container{
         transform: scale(1.05);
       }
     
-      h2{
+      .loginH{
         margin-left: 110px;
       }
     
